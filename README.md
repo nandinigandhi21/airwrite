@@ -43,8 +43,8 @@ python --version
 
 # If 3.13, install 3.12 from https://www.python.org/downloads/
 # Then create a virtual environment with it explicitly:
-py -3.12 -m venv venv          # Windows
-python3.12 -m venv venv        # macOS / Linux
+py -3.11 -m venv venv          # Windows
+python3.11 -m venv venv        # macOS / Linux
 ```
 
 ---
@@ -62,13 +62,13 @@ cd airwrite
 
 **Windows**
 ```bash
-py -3.12 -m venv venv
+py -3.11 -m venv venv
 venv\Scripts\activate
 ```
 
 **macOS / Linux**
 ```bash
-python3.12 -m venv venv
+python3.11 -m venv venv
 source venv/bin/activate
 ```
 
